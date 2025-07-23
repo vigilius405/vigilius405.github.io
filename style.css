@@ -5,20 +5,22 @@
 }
 
 /* COLOR SCHEME */
-/** Base colors */
---black: #000000;
---white: #ffffff;
-
-/** Theme primary colors */
---red-background: #381812;
---red-2: #4d2e28;
---red-3: #62453f;
---red-4: #775d57;
---red-5: #8d7671;
---red-6: #a3908b;
+:root {
+  /** Base colors */
+  --black: #000000;
+  --white: #ffffff;
+  
+  /** Theme primary colors */
+  --red-background: #381812;
+  --red-2: #4d2e28;
+  --red-3: #62453f;
+  --red-4: #775d57;
+  --red-5: #8d7671;
+  --red-6: #a3908b;
+}
 
 body {
-  background-color: --red-background; 
+  background-color: var(--red-background); 
 }
 
 .nav {
@@ -35,7 +37,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: --red-2;
+  background-color: var(--red-2);
   opacity: 0.7;
 }
 
@@ -53,7 +55,7 @@ body {
 
 /* Change the link color to #111 (black) on hover */
 .nav-li a:hover {
-  background-color: --red-4;
+  background-color: var(--red-4);
 }
 
 /* for card display */
