@@ -21,12 +21,22 @@ body {
   background-color: --red-background; 
 }
 
+.nav {
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  /*height: 10%;*/
+}
+
 .nav-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: --red-2;
+  opacity: 0.7;
 }
 
 .nav-li {
