@@ -76,10 +76,17 @@ body {
   overflow-x: scroll;
 }
 
+.cards::-webkit-scrollbar {
+  height: 0; /* Hide scrollbar */
+  /*width: 0; /* Hide scrollbar height */
+}
+
 .card {
   display: flex;
   flex-direction: column;
   flex: 0 0 100%;
+  background-color: var(--red-1);
+  border-radius: 25px;
 }
 
 .card-header {
