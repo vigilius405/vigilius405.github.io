@@ -90,13 +90,20 @@ body {
   height: 300px;
 }
 
+.card:hover {
+  height: 325px;
+}
+
 .card-header {
+  padding: 15px 15px 0px 15px; /* top right bottom left */
 }
 
 .card-body {
+  padding: 0px 15px 0px 15px;
 }
 
 .card-link {
+  padding: 0px 15px 15px 15px;
 }
 
 /* card displays for different width settings */
@@ -108,6 +115,9 @@ body {
   .card:not(:last-child) {
     margin-right: 20px;
   }
+  .card:hover {
+    flex-basis: 50%;
+  }
 }
 @media (min-width: 700px) {
   .card {
@@ -116,6 +126,9 @@ body {
   .card:not(:last-child) {
     margin-right: 30px;
   }
+  .card:hover {
+    flex-basis: calc(calc(100% / 3) - 10px);
+  }
 }
 @media (min-width: 1100px) {
   .card {
@@ -123,6 +136,9 @@ body {
   }
   .card:not(:last-child) {
     margin-right: 40px;
+  }
+  .card:hover {
+    flex-basis: calc(25% - 20px);
   }
 }
 
