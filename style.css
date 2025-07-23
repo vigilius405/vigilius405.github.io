@@ -87,6 +87,7 @@ body {
   flex: 0 0 100%;
   background-color: var(--red-1);
   border-radius: 25px;
+  height: 500px;
 }
 
 .card-header {
