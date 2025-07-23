@@ -90,6 +90,8 @@ body {
   border-radius: 25px;
   height: 300px;
   margin-top: 20px;
+  /* for easing card size transitions */
+  transition: all 1s ease-out;
 }
 
 .card:hover {
