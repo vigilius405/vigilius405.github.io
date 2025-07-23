@@ -4,8 +4,21 @@
   padding: 0;
 }
 
+/* COLOR SCHEME */
+/** Base colors */
+--black: #000000;
+--white: #ffffff;
+
+/** Theme primary colors */
+--red-background: #381812;
+--red-2: #4d2e28;
+--red-3: #62453f;
+--red-4: #775d57;
+--red-5: #8d7671;
+--red-6: #a3908b;
+
 body {
-  background-color: #381812;
+  background-color: --red-background; 
 }
 
 .nav-ul {
@@ -13,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: --red-2;
 }
 
 .nav-li {
@@ -30,7 +43,7 @@ body {
 
 /* Change the link color to #111 (black) on hover */
 .nav-li a:hover {
-  background-color: #111;
+  background-color: --red-4;
 }
 
 /* for card display */
