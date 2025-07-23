@@ -69,6 +69,7 @@ body {
 }
 
 .flex-row {
+  height: 500px;
 }
 
 .cards {
@@ -88,10 +89,12 @@ body {
   background-color: var(--red-2);
   border-radius: 25px;
   height: 300px;
+  margin-top: 20px;
 }
 
 .card:hover {
-  height: 325px;
+  height: 320px;
+  margin-top: 10px;
 }
 
 .card-header {
@@ -111,34 +114,46 @@ body {
 @media (min-width: 500px) {
   .card {
     flex-basis: calc(50% - 10px);
+    margin-right: 10px;
+    margin-left: 10px;
   }
-  .card:not(:last-child) {
+/*   .card:not(:last-child) {
     margin-right: 20px;
-  }
+  } */
   .card:hover {
-    flex-basis: 50%;
+    flex-basis: calc(50% + 10px);
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 @media (min-width: 700px) {
   .card {
     flex-basis: calc(calc(100% / 3) - 20px);
+    margin-right: 15px;
+    margin-left: 15px;
   }
-  .card:not(:last-child) {
+/*   .card:not(:last-child) {
     margin-right: 30px;
-  }
+  } */
   .card:hover {
-    flex-basis: calc(calc(100% / 3) - 10px);
+    flex-basis: calc(calc(100% / 3) - 0px);
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 @media (min-width: 1100px) {
   .card {
     flex-basis: calc(25% - 30px);
+    margin-right: 20px;
+    margin-left: 20px;
   }
-  .card:not(:last-child) {
+/*   .card:not(:last-child) {
     margin-right: 40px;
-  }
+  } */
   .card:hover {
-    flex-basis: calc(25% - 20px);
+    flex-basis: calc(25% - 10px);
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
