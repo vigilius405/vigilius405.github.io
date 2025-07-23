@@ -26,7 +26,9 @@ body {
 .nav {
   border-radius: 25px;
   backdrop-filter: blur(10px);
-  padding-top: 5%;
+  position: fixed;
+  top: 5%;
+  /*padding-top: 5%;*/
   padding-left: 10%;
   padding-right: 10%;
   /*height: 10%;*/
