@@ -39,7 +39,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--red-2);
+  background-color: var(--red-3);
   opacity: 0.7;
 }
 
@@ -57,7 +57,7 @@ body {
 
 /* Change the link color to #111 (black) on hover */
 .nav-li a:hover {
-  background-color: var(--red-4);
+  background-color: var(--red-5);
 }
 
 /* for card display */
@@ -85,9 +85,9 @@ body {
   display: flex;
   flex-direction: column;
   flex: 0 0 100%;
-  background-color: var(--red-1);
+  background-color: var(--red-2);
   border-radius: 25px;
-  height: 500px;
+  height: 300px;
 }
 
 .card-header {
