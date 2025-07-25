@@ -159,17 +159,21 @@ body {
 
 .namebox {
   position: absolute; /* Positions the text relative to the container */
-  top: 50%; /* Adjust vertical position */
+  top: 80%; /* Adjust vertical position */
   left: 10%; /* Adjust horizontal position */
 /*   transform: translate(-50%, -50%); /* Centers the text */
   text-align: left;
   color: white;
   mix-blend-mode: difference;
   z-index: 1; /* above video */
+}
+
+.namebox h1 {
   /*font*/
   font-family: "Bitcount Grid Single", system-ui;
+  font-size: 100px;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-variation-settings:
     "slnt" 0,
