@@ -189,7 +189,7 @@ body {
   height: 20%;
   position: absolute;
   top: 80%;
-  background-image: linear-gradient(var(--red-background-alpha), var(--red-background-alpha2), var(--red-background));
+  background-image: linear-gradient(var(--red-background-alpha), var(--red-background));
 }
 
 /* for card display */
