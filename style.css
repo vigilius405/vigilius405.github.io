@@ -159,7 +159,7 @@ body {
 
 .namebox {
   position: absolute; /* Positions the text relative to the container */
-  top: 80%; /* Adjust vertical position */
+  top: 60%; /* Adjust vertical position */
   left: 10%; /* Adjust horizontal position */
 /*   transform: translate(-50%, -50%); /* Centers the text */
   text-align: left;
