@@ -61,6 +61,13 @@
     "ELXP" 0;
 }
 
+/* GENERAL STUFF */
+
+/* for smooth scrolling when selecting header links */
+html {
+  scroll-behavior: smooth;
+}
+
 /* removing default html margins */
 * {
   margin: 0;
@@ -89,6 +96,8 @@ body {
   background-color: var(--red-background); 
 }
 
+/* NAV BAR */
+
 .nav {
   /* navbar position */
   position: fixed;
@@ -97,22 +106,12 @@ body {
   justify-content: center;
   top: 5%;
   z-index: 1000; /*to keep on top*/
-  /*padding-top: 5%;*/
-/*   padding-left: 10%;
-  padding-right: 10%; */
-  /*height: 10%;*/
-  
 }
 
 .nav-ul {
-  /* navbar appearance */
   border-radius: 25px;
   background-color: var(--red-3-alpha);
-/*   backdrop-filter: opacity(70%); */
   backdrop-filter: blur(10px);
-/*   opacity: 0.7; */
-  /* positioning */
-  /*width:70%;*/
   display: flex;
   flex-basis: content;
   justify-content: center;
@@ -144,7 +143,7 @@ body {
   background-color: var(--red-5);
 }
 
-/* for video display */
+/* VIDEO DISPLAY */
 
 .protvid {
   position: relative;
@@ -160,10 +159,9 @@ body {
 }
 
 .namebox {
-  position: absolute; /* Positions the text relative to the container */
-  top: 50%; /* Adjust vertical position */
-  left: 10%; /* Adjust horizontal position */
-/*   transform: translate(-50%, -50%); /* Centers the text */
+  position: absolute;
+  top: 50%;
+  left: 10%;
   text-align: left;
   color: white;
   mix-blend-mode: difference;
@@ -192,9 +190,7 @@ body {
   background-image: linear-gradient(var(--red-background-alpha), var(--red-background));
 }
 
-/* for card display */
-/* for card display */
-/* for card display */
+/* CARD DISPLAY */
 
 #experience {
   box-sizing: border-box;
@@ -253,14 +249,6 @@ body {
     margin-right: 10px;
     margin-left: 10px;
   }
-/*   .card:not(:last-child) {
-    margin-right: 20px;
-  } */
-/*   .card:hover {
-    flex-basis: calc(50% + 10px);
-    margin-right: 0px;
-    margin-left: 0px;
-  } */
 }
 @media (min-width: 700px) {
   .card {
@@ -268,14 +256,6 @@ body {
     margin-right: 15px;
     margin-left: 15px;
   }
-/*   .card:not(:last-child) {
-    margin-right: 30px;
-  } */
-/*   .card:hover {
-    flex-basis: calc(calc(100% / 3) - 0px);
-    margin-right: 5px;
-    margin-left: 5px;
-  } */
 }
 @media (min-width: 1100px) {
   .card {
@@ -283,48 +263,10 @@ body {
     margin-right: 20px;
     margin-left: 20px;
   }
-/*   .card:not(:last-child) {
-    margin-right: 40px;
-  } */
-/*   .card:hover {
-    flex-basis: calc(25% - 10px);
-    margin-right: 10px;
-    margin-left: 10px;
-  } */
 }
 
-/* Float four columns side by side */
-/*.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
 
-/* Remove extra left and right margins, due to padding in columns */
-/*.row {
-  margin: 0 -5px;
-}
-
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-/* Style the counter cards */
-/*.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-/*  padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
 }
 
-/* Responsive columns - one column layout (vertical) on small screens */
-/* @media screen and (max-width: 600px) {
- .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-} */
