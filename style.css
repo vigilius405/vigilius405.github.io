@@ -89,9 +89,9 @@ body {
 .nav {
   /* navbar appearance */
   border-radius: 25px;
+  opacity: 0.7;
   backdrop-filter: blur(10px);
   background-color: var(--red-3);
-  opacity: 0.7;
 
   /* navbar position */
   position: fixed;
@@ -99,9 +99,10 @@ body {
   display: flex;
   justify-content: center;
   top: 5%;
+  z-index: 1000; /*to keep on top*/
   /*padding-top: 5%;*/
-/*   padding-left: 10%;
-  padding-right: 10%; */
+  padding-left: 10%;
+  padding-right: 10%;
   /*height: 10%;*/
 }
 
