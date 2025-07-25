@@ -76,6 +76,7 @@
   /** Theme primary colors */
   --red-background: #381812;
   --red-background-alpha: rgba(56, 24, 18, 0);
+  --red-background-alpha2: rgba(56, 24, 18, 0.75);
   --red-2: #4d2e28;
   --red-3: #62453f;
   --red-3-alpha: rgba(98, 69, 63, 0.5);
@@ -188,7 +189,7 @@ body {
   height: 20%;
   position: absolute;
   top: 80%;
-  background-image: linear-gradient(var(--red-background-alpha), var(--red-background));
+  background-image: linear-gradient(var(--red-background-alpha), var(--red-background-alpha2), var(--red-background));
 }
 
 /* for card display */
