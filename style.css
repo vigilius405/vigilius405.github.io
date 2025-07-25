@@ -95,8 +95,8 @@ body {
 }
 
 .card:hover {
-  height: 320px;
-  margin-top: 10px;
+/*   height: 320px;
+  margin-top: 10px; */
   transform: scale(1.2); /* testing scale */
 }
 
@@ -123,11 +123,11 @@ body {
 /*   .card:not(:last-child) {
     margin-right: 20px;
   } */
-  .card:hover {
+/*   .card:hover {
     flex-basis: calc(50% + 10px);
     margin-right: 0px;
     margin-left: 0px;
-  }
+  } */
 }
 @media (min-width: 700px) {
   .card {
@@ -138,11 +138,11 @@ body {
 /*   .card:not(:last-child) {
     margin-right: 30px;
   } */
-  .card:hover {
+/*   .card:hover {
     flex-basis: calc(calc(100% / 3) - 0px);
     margin-right: 5px;
     margin-left: 5px;
-  }
+  } */
 }
 @media (min-width: 1100px) {
   .card {
@@ -153,11 +153,11 @@ body {
 /*   .card:not(:last-child) {
     margin-right: 40px;
   } */
-  .card:hover {
+/*   .card:hover {
     flex-basis: calc(25% - 10px);
     margin-right: 10px;
     margin-left: 10px;
-  }
+  } */
 }
 
 /* Float four columns side by side */
