@@ -123,6 +123,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 25px;
   /*font*/
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
