@@ -77,6 +77,7 @@
   --red-background: #381812;
   --red-2: #4d2e28;
   --red-3: #62453f;
+  --red-3-7: rgba(98, 69, 63, 0.7);
   --red-4: #775d57;
   --red-5: #8d7671;
   --red-6: #a3908b;
@@ -104,13 +105,14 @@ body {
 .nav-ul {
   /* navbar appearance */
   border-radius: 25px;
-  background-color: var(--red-3);
-  backdrop-filter: opacity(70%);
+  background-color: var(--red-3-7);
+/*   backdrop-filter: opacity(70%); */
   backdrop-filter: blur(10px);
 /*   opacity: 0.7; */
   /* positioning */
-  width:70%;
+  /*width:70%;*/
   display: flex;
+  flex-basis: content;
   justify-content: center;
   list-style-type: none;
   margin: 0;
