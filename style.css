@@ -206,12 +206,14 @@ body {
   font-weight: 400;
   font-style: normal;
   color: white;
-  margin-left: 30%;
+  margin-left: 15%;
+  margin-right: 35%
   margin-top: 20%;
   border-style: none none none solid;
   border-width: 10px;
   border-color: var(--red-5);
   background-color: var(--red-3);
+  text-align: left;
 }
 
 /* CARD DISPLAY */
