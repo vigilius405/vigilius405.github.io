@@ -190,6 +190,22 @@ body {
   background-image: linear-gradient(var(--red-background-alpha), var(--red-background));
 }
 
+/* ABOUT CARD */
+
+.main-header {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.about-card {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
 /* CARD DISPLAY */
 
 #experience {
