@@ -240,7 +240,7 @@ body {
   height: 0; /* Hide scrollbar */
 }
 
-.cards:hover {
+.cards:hover .card {
   animation-play-state: paused;
 }
 
@@ -414,7 +414,7 @@ body {
       transform: translateX(0);
     }
     to {
-      transform: translateX(calc(calc(-100% + 20px)));
+      transform: translateX(calc(calc(-100%)));
     }
   }
 }
