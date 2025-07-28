@@ -207,8 +207,9 @@ body {
   font-style: normal;
   color: white;
   margin-left: 15%;
-  margin-right: 35%
-  margin-top: 20px;
+  width: 50%;
+  padding: 15px
+  margin-top: 50px;
   border-style: none none none solid;
   border-width: 10px;
   border-color: var(--red-5);
@@ -270,13 +271,17 @@ body {
   font-weight: 300;
   font-style: normal;
   color: var(--red-5);
-  text-justify: inter-word;
+  text-align: justify;
 }
 
 .card-link {
   text-align: center;
   display: block;
-  width: 50%
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 15px;
   padding: 14px 16px; /* 0 15 15 15 */
   border-radius: 25px;
   background-color: var(--red-3);
@@ -286,7 +291,7 @@ body {
   background-color: var(--red-5);
   outline-style: solid;
   outline-color: white;
-  outline-width: 5px;
+  outline-width: 2px;
 }
 
 .card-link a {
