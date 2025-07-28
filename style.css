@@ -232,10 +232,16 @@ body {
   height: 500px;
   display: flex;
   overflow-x: scroll;
+  /* animation */
+  animation: autoscroll 15s linear infinite;
 }
 
 .cards::-webkit-scrollbar {
   height: 0; /* Hide scrollbar */
+}
+
+.cards:hover {
+  animation-play-state: paused;
 }
 
 .card {
@@ -367,6 +373,15 @@ body {
     margin-right: 10px;
     margin-left: 10px;
   }
+  /* cards animation */
+  @keyframes autoscroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100%));
+    }
+  }
 }
 @media (min-width: 700px) {
   .card {
@@ -374,11 +389,29 @@ body {
     margin-right: 15px;
     margin-left: 15px;
   }
+  /* cards animation */
+  @keyframes autoscroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100%));
+    }
+  }
 }
 @media (min-width: 1100px) {
   .card {
     flex-basis: calc(25% - 30px);
     margin-right: 20px;
     margin-left: 20px;
+  }
+  /* cards animation */
+  @keyframes autoscroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100%));
+    }
   }
 }
