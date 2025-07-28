@@ -327,11 +327,16 @@ body {
 .skill-card .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: var(--red-2);
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
+
+  /* font */
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
  
   /* Position the tooltip text - see examples below! */
   position: absolute;
