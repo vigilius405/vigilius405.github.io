@@ -203,18 +203,18 @@ body {
 
 .about-card {
   font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  color: white;
+  color: var(--red-6);
   margin-left: 15%;
   width: 50%;
-  padding: 15px
-  margin-top: 50px;
+  padding: 15px 15px 15px 15px;
+  margin-top: 5%;
   border-style: none none none solid;
   border-width: 10px;
   border-color: var(--red-5);
   background-color: var(--red-3);
-  text-align: left;
+  text-align: justify;
 }
 
 /* CARD DISPLAY */
@@ -304,9 +304,11 @@ body {
 }
 
 .skill-cards {
-  height: 200px;
+  height: 250px;
   display: flex;
   overflow-x: scroll;
+  overflow-y: clip;
+  list-style: none;
 }
 
 .skill-cards::-webkit-scrollbar {
@@ -343,7 +345,7 @@ body {
   z-index: 1;
   
   width: 120px;
-  bottom: 100%;
+  bottom: 105%;
   left: 50%;
   margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
