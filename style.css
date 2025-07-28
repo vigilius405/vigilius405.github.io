@@ -198,7 +198,7 @@ body {
   font-style: normal;
   color: white;
   margin-left: 10%;
-  margin-top: 20%
+  margin-top: 10%
 }
 
 .about-card {
@@ -208,7 +208,7 @@ body {
   color: white;
   margin-left: 15%;
   margin-right: 35%
-  margin-top: 20%;
+  margin-top: 20px;
   border-style: none none none solid;
   border-width: 10px;
   border-color: var(--red-5);
@@ -252,19 +252,38 @@ body {
 .card:hover {
 /*   height: 320px;
   margin-top: 10px; */
-  transform: scale(1.1); /* testing scale */
+  transform: scale(1.1);
 }
 
 .card-header {
   padding: 15px 15px 0px 15px; /* top right bottom left */
+  /* font */
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
 }
 
 .card-body {
   padding: 0px 15px 0px 15px;
+  /* font */
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-justify: inter-word;
 }
 
 .card-link {
-  padding: 0px 15px 15px 15px;
+  text-align: center;
+  display: block;
+  padding: 14px 16px; /* 0 15 15 15 */
+  border-radius: 25px;
+  background-color: var(--red-4);
+}
+
+.skill-card {
+  
 }
 
 /* card displays for different width settings */
@@ -290,9 +309,3 @@ body {
     margin-left: 20px;
   }
 }
-
-
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
