@@ -236,6 +236,19 @@ body {
 /*   animation: autoscroll 15s linear infinite; */
 }
 
+.cards:before .cards:after {
+  content: "";
+  position: absolute;
+  height: 400px;
+/*   width: ; */
+}
+
+.cards:after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
 .cards::-webkit-scrollbar {
   height: 0; /* Hide scrollbar */
 }
@@ -414,7 +427,7 @@ body {
       transform: translateX(0);
     }
     to {
-      transform: translateX(calc(calc(-100% - 20px) * 8));
+      transform: translateX(-200% - 40px); /* calc(calc(-100% - 20px) * 8) */
     }
   }
 }
