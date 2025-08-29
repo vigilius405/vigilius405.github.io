@@ -386,12 +386,27 @@ body {
 }
 
 /* card displays for different width settings */
-
+@media (min-width: 320px) {
+  .card {
+    flex-basis: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  /* cards animation */
+  @keyframes autoscroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100%));
+    }
+  }
+}
 @media (min-width: 500px) {
   .card {
-    flex-basis: calc(50% - 20px);
-    margin-right: 15px;
-    margin-left: 15px;
+    flex-basis: calc(50% - 10px);
+    margin-right: 10px;
+    margin-left: 10px;
   }
   /* cards animation */
   @keyframes autoscroll {
