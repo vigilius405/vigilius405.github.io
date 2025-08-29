@@ -98,14 +98,27 @@ body {
 
 /* NAV BAR */
 
-.nav {
-  /* navbar position */
-  position: fixed;
-  width:100%;
-  display: flex;
-  justify-content: center;
-  top: 5vmin; /*5%;*/
-  z-index: 1000; /*to keep on top*/
+@media (min-width: 320px) {
+  .nav {
+    /* navbar position */
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    top: 5vw; /*5%;*/
+    z-index: 1000; /*to keep on top*/
+  }
+}
+@media (min-width: 500px) {
+  .nav {
+    /* navbar position */
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    top: 5vmin; /*5%;*/
+    z-index: 1000; /*to keep on top*/
+  }
 }
 
 .nav-ul {
