@@ -349,6 +349,10 @@ body {
   transform: scale(1.1);
 }
 
+.skill-card img {
+  height: 15vmin;
+}
+
 .skill-card .tooltiptext {
   visibility: hidden;
   width: 120px;
