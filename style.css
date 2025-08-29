@@ -328,7 +328,7 @@ body {
 }
 
 .skill-cards {
-  height: 25vh; /*250px;*/
+  height: 25vmin; /*250px;*/
   display: flex;
   overflow-x: scroll;
   overflow-y: clip;
