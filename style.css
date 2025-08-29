@@ -171,7 +171,7 @@ body {
 .namebox h1 {
   /*font*/
   font-family: "Bitcount Grid Single", system-ui;
-  font-size: 35vw;/*100px;*/
+  font-size: 15vw;/*100px;*/
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
