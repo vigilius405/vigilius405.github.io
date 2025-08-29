@@ -118,7 +118,8 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .nav-li {
@@ -160,7 +161,7 @@ body {
 
 .namebox {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 10%;
   text-align: left;
   color: white;
