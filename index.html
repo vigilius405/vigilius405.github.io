@@ -1,151 +1,224 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="src/favicon.svg">
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Grid+Single:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Matemasie&family=Outfit:wght@100..900&family=PT+Sans+Narrow:wght@400;700&family=Share+Tech&display=swap" rel="stylesheet">
-    
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Pierce Hoenigman</title>
-  </head>
-  <body>
-    
-    <div class="nav">
-      <ul class="nav-ul">
-        <li class="nav-li"><a href="https://vigilius405.github.io#about">About</a></li>
-        <li class="nav-li"><a href="https://vigilius405.github.io#experience">Experience</a></li>
-        <li class="nav-li"><a href="https://vigilius405.github.io#skills">Skills</a></li>
-        <li class="nav-li"><a href="src/Pierce_Hoenigman_Resume_7-21-25.pdf" download>Download Resume</a></li>
-        <li class="nav-li"><a href="https://linkedin.com/in/pierce-hoenigman-189973218/">LinkedIn</a></li>
-        <li class="nav-li"><a href="https://github.com/vigilius405">Github</a></li>
-        <li class="nav-li"><a href="mailto:pierce@hoenigman.com">Contact</a></li>
-      </ul>
+
+<head>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="src/favicon.svg">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Grid+Single:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Matemasie&family=Outfit:wght@100..900&family=PT+Sans+Narrow:wght@400;700&family=Share+Tech&display=swap"
+    rel="stylesheet">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pierce Hoenigman</title>
+</head>
+
+<body>
+
+  <div class="nav">
+    <ul class="nav-ul">
+      <li class="nav-li"><a href="https://vigilius405.github.io#about">About</a></li>
+      <li class="nav-li"><a href="https://vigilius405.github.io#experience">Experience</a></li>
+      <li class="nav-li"><a href="https://vigilius405.github.io#skills">Skills</a></li>
+      <li class="nav-li"><a href="src/Pierce_Hoenigman_Resume_CURRENT.pdf" download>Download Resume</a></li>
+      <li class="nav-li"><a href="https://linkedin.com/in/pierce-hoenigman-189973218/">LinkedIn</a></li>
+      <li class="nav-li"><a href="https://github.com/vigilius405">Github</a></li>
+      <li class="nav-li"><a href="mailto:pierce@hoenigman.com">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="protvid">
+    <video width="100%" height="auto" playsinline autoplay muted loop>
+      <source src="src/protvid.mp4" type="video/mp4" />
+    </video>
+    <div class="namebox">
+      <h1 class="myname">Pierce<br>Hoenigman.</h1>
     </div>
+    <div class="blur-and-fade"></div>
+  </div>
 
-    <div class="protvid">
-      <video width="100%" height="auto" playsinline autoplay muted loop>
-        <source src="src/protvid.mp4" type="video/mp4" />
-      </video>
-      <div class="namebox"><h1 class="myname">Pierce<br>Hoenigman.</h1></div>
-      <div class="blur-and-fade"></div>
-    </div>
+  <div id="about">
+    <h1 class="main-header">Generative machine learning for biology</h1>
+    <div class="facecard"></div>
+    <div class="about-card">Hi! My name’s Pierce—I recently graduated from the University of Chicago in quantitative
+      biology, and am now headed to Cornell Tech for a masters in computer
+      science. I’m passionate about the use of machine learning and computational modeling to expedite biological
+      discovery and pharmaceutical development. On this website, you can find
+      my various experiences, projects, and skills. Don’t hesitate to reach out!</div>
+  </div>
 
-    <div id="about">
-      <h1 class="main-header">Generative machine learning for biology</h1>
-      <div class="facecard"></div>
-      <div class="about-card">Hi! My name’s Pierce—I recently graduated from the University of Chicago in quantitative biology, and am now headed to Cornell Tech for a masters in computer 
-        science. I’m passionate about the use of machine learning and computational modeling to expedite biological discovery and pharmaceutical development. On this website, you can find 
-        my various experiences, projects, and skills. Don’t hesitate to reach out!</div>
-    </div>
+  <div id="experience">
+    <h1 class="main-header">Experience</h1>
+    <div class="experience-grid">
+      <!-- Row 1 -->
+      <div class="card">
+        <h3 class="card-header">Learning Latent Design Spaces in Protein Generative Models</h3>
+        <div class="card-body">In the Ranganathan Lab at UChicago, I completed my Bachelor of Science thesis with
+          Research Honors. I designed novel variational autoencoder-based models
+          for protein representation learning and generation, with a focus on latent space disentanglement of protein
+          functional properties. I was able to improve functional awareness
+          of the latent space and get closer to achieving tunable protein properties.</div>
+        <div class="card-link"><a href="src/Thesis_Final_Draft_For_Committee.pdf" download>Read my thesis</a></div>
+      </div>
 
-    <div id="experience">
-      <h1 class="main-header">Experience</h1>
-      <div class="flex-row">
-        <ul class="cards">
-          <li class="card">
-            <h3 class="card-header">Learning Latent Design Spaces in Protein Generative Models</h3>
-            <div class="card-body">In the Ranganathan Lab at UChicago, I completed my Bachelor of Science thesis with Research Honors. I designed novel variational autoencoder-based models
-              for protein representation learning and generation, with a focus on latent space disentanglement of protein functional properties. I was able to improve functional awareness 
-              of the latent space and get closer to achieving tunable protein properties.</div>
-            <div class="card-link"><a href="src/Thesis_Final_Draft_For_Committee.pdf" download>Read my thesis</a></div>
-            <!-- could also add skill icons here potentsch -->
-          </li>
+      <div class="card">
+        <h3 class="card-header">Pharma Transfer Learning</h3>
+        <div class="card-body">For a Distributed Optimization course, I trained federated transfer learning models for
+          physiological benchmark prediction tasks. I compared against baseline learning methods to determine
+          performance improvements and confirm feasibility of learning from heterogeneous siloed pharmaceutical data
+          sources</div>
+        <div class="card-link"><a href="src/PharmaTransferLearning.pdf" download>Read the paper</a></div>
+      </div>
 
-          <li class="card">
-            <h3 class="card-header">Implicit Neural Representations</h3>
-            <div class="card-body">For a Neural Networks course, I experimented with implicit neural representation and wrote my final project on Evaluation of Out-of-Bounds Pattern 
-              Conservation in Implicit Neural Representation Networks. I found that Kolmogorov-Arnold Networks were particularly good at generalization and expansion of complex implicit 
-              patterns.</div>
-            <div class="card-link"><a href="src/pierce_hoengiman_nns_FINAL_2.pdf" download>Read the paper</a></div>
-          </li>
+      <div class="card">
+        <h3 class="card-header">Spatial Proteomics GraphFormer</h3>
+        <div class="card-body">I built and trained graph transformers on colorectal cancer spatial proteomics data to
+          model intercellular signaling. I quantified cell-type influence, spatial propagation range, and
+          protein-specific neighbor effects</div>
+        <div class="card-link"><a href="https://github.com/vigilius405/spatiotemporal-graphformer">GitHub</a></div>
+      </div>
 
+      <div class="card">
+        <h3 class="card-header">Implicit Neural Representations</h3>
+        <div class="card-body">For a Neural Networks course, I experimented with implicit neural representation and
+          wrote my final project on Evaluation of Out-of-Bounds Pattern
+          Conservation in Implicit Neural Representation Networks. I found that Kolmogorov-Arnold Networks were
+          particularly good at generalization and expansion of complex implicit
+          patterns.</div>
+        <div class="card-link"><a href="src/pierce_hoengiman_nns_FINAL_2.pdf" download>Read the paper</a></div>
+      </div>
 
-          <li class="card">
-            <h3 class="card-header">Quantitative Biosciences Center</h3>
-            <div class="card-body">As the Head Teaching Assistant, I designed and administered a dozen bioinformatics labs in R and Python across six courses. Hosting general coding and 
-              statistics office hours, I helped hundreds of students in the biological sciences and beyond with their quantitative questions. </div>
-            <!-- <div class="card-link"><a href="">Link thinggy</a></div> -->
-          </li>
+      <!-- Row 2 -->
+      <div class="card">
+        <h3 class="card-header">Quantitative Biosciences Center</h3>
+        <div class="card-body">As the Head Teaching Assistant, I designed and administered a dozen bioinformatics labs
+          in R and Python across six courses. Hosting general coding and
+          statistics office hours, I helped hundreds of students in the biological sciences and beyond with their
+          quantitative questions.</div>
+      </div>
 
-          <li class="card">
-            <h3 class="card-header">Mathematical Foundations of Machine Learning</h3>
-            <div class="card-body">As a grader for this course, I assessed and answered questions for over 200 students on the mathematical theory underlying machine learning models. </div>
-            <!-- <div class="card-link"><a href="">Link thinggy</a></div> -->
-          </li>
+      <div class="card">
+        <h3 class="card-header">Mathematical Foundations of Machine Learning</h3>
+        <div class="card-body">As a grader for this course, I assessed and answered questions for over 200 students on
+          the mathematical theory underlying machine learning models.</div>
+      </div>
 
-          <li class="card">
-            <h3 class="card-header">UChicago iGEM 2024 (VIPR)</h3>
-            <div class="card-body">The UChicago Genehackers team won Gold at the international Genetically Engineered Machine (iGEM) 2024 competition in Paris for development of a 
-              schistosomiasis vaccine candidate now under animal testing at the NIH. Alongside helping with project conceptualization, I raised $40,000 for research and travel costs and 
-              managed lab finances.</div>
-            <div class="card-link"><a href="https://2024.igem.wiki/uchicago/">Visit the website</a></div>
-          </li>
+      <div class="card">
+        <h3 class="card-header">UChicago iGEM 2024 (VIPR)</h3>
+        <div class="card-body">The UChicago Genehackers team won Gold at the international Genetically Engineered
+          Machine (iGEM) 2024 competition in Paris for development of a
+          schistosomiasis vaccine candidate now under animal testing at the NIH. Alongside helping with project
+          conceptualization, I raised $40,000 for research and travel costs and
+          managed lab finances.</div>
+        <div class="card-link"><a href="https://2024.igem.wiki/uchicago/">Visit the website</a></div>
+      </div>
 
-          <li class="card">
-            <h3 class="card-header">Chicago Biomedical Consortium</h3>
-            <div class="card-body">As an Entrepreneurship Intern, I conducted market research and scientific literature review to narrow down pre-seed grant candidates from Chicagoland 
-              biotech startups. I additionally constructed an Excel database of 500+ Chicagoland biotech and Pharma companies, and contributed to the annual Chicagoland life sciences
-              landscape report.</div>
-            <div class="card-link"><a href="https://chicagobiomedicalconsortium.org/wp-content/uploads/2023/12/Chicago_LifeSciencesReport_12June2023.pdf">Read the publication</a></div>
-          </li>
+      <div class="card">
+        <h3 class="card-header">Chicago Biomedical Consortium</h3>
+        <div class="card-body">As an Entrepreneurship Intern, I conducted market research and scientific literature
+          review to narrow down pre-seed grant candidates from Chicagoland
+          biotech startups. I additionally constructed an Excel database of 500+ Chicagoland biotech and Pharma
+          companies, and contributed to the annual Chicagoland life sciences
+          landscape report.</div>
+        <div class="card-link"><a
+            href="https://chicagobiomedicalconsortium.org/wp-content/uploads/2023/12/Chicago_LifeSciencesReport_12June2023.pdf">Read
+            the publication</a></div>
+      </div>
 
-          <li class="card">
-            <h3 class="card-header">UChicago iGEM 2023 (GLOW)</h3>
-            <div class="card-body">The UChicago Genehackers team won Gold at the international Genetically Engineered Machine (iGEM) 2023 competition in Paris for development of a more 
-              eco-friendly racemic resolution step in the synthesis of levothyroxine. I raised $40,000 for research and travel costs, managed lab finances, and organized guest speaker 
-              events with pharma entrepreneurs.</div>
-            <div class="card-link"><a href="https://2023.igem.wiki/uchicago/">Visit the website</a></div>
-          </li>
+      <!-- Row 3 -->
+      <div class="card">
+        <h3 class="card-header">UChicago iGEM 2023 (GLOW)</h3>
+        <div class="card-body">The UChicago Genehackers team won Gold at the international Genetically Engineered
+          Machine (iGEM) 2023 competition in Paris for development of a more
+          eco-friendly racemic resolution step in the synthesis of levothyroxine. I raised $40,000 for research and
+          travel costs, managed lab finances, and organized guest speaker
+          events with pharma entrepreneurs.</div>
+        <div class="card-link"><a href="https://2023.igem.wiki/uchicago/">Visit the website</a></div>
+      </div>
 
-          <li class="card">
-            <h3 class="card-header">Mitochondrial Protein Biogenesis Pathways</h3>
-            <div class="card-body">Through the DAAD-RISE research exchange program, I worked in the Herrmann Lab at RPTU Kaiserslautern-Landau in Germany. I investigated novel pathways 
-              through which lost proteins may be redirected to the mitochondria, and was acknowledged for my editing of lab publications.</div>
-            <div class="card-link"><a href="https://www.cell.com/cell-reports/pdf/S2211-1247(24)00346-2.pdf">Read the publication</a></div>
-          </li>
-        </ul>
+      <div class="card">
+        <h3 class="card-header">Mitochondrial Protein Biogenesis Pathways</h3>
+        <div class="card-body">Through the DAAD-RISE research exchange program, I worked in the Herrmann Lab at RPTU
+          Kaiserslautern-Landau in Germany. I investigated novel pathways
+          through which lost proteins may be redirected to the mitochondria, and was acknowledged for my editing of
+          lab publications.</div>
+        <div class="card-link"><a href="https://www.cell.com/cell-reports/pdf/S2211-1247(24)00346-2.pdf">Read the
+            publication</a></div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-header">Querying fMRI Voxel Embeddings</h3>
+        <div class="card-body">Coming soon...</div>
+        <div class="card-link"><a href="">Coming soon...</a></div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-header">Glycan Language Model</h3>
+        <div class="card-body">Coming soon...</div>
+        <div class="card-link"><a href="">Coming soon...</a></div>
+      </div>
+
+      <!-- Row 4 -->
+      <div class="card">
+        <h3 class="card-header">CMC Automation Agent</h3>
+        <div class="card-body">Coming soon...</div>
+        <div class="card-link"><a href="">Coming soon...</a></div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-header">Reinforcement Learning Model for NYC Housing</h3>
+        <div class="card-body">Coming soon...</div>
+        <div class="card-link"><a href="">Coming soon...</a></div>
+      </div>
+
+      <div class="card blank-card">
+      </div>
+
+      <div class="card blank-card">
       </div>
     </div>
+  </div>
 
-    <div id="skills">
-      <h1 class="main-header">Skills</h1>
-      <div class="flex-row">
-        <ul class="skill-cards">
-          <li class="skill-card"><img src="src/skill_icons/python.png" alt="Python" height="150"><span class="tooltiptext">Python</span></li>
-          <li class="skill-card"><img src="src/skill_icons/r.png" alt="R" height="150"><span class="tooltiptext">R</span></li>
-          <li class="skill-card"><img src="src/skill_icons/c.png" alt="C" height="150"><span class="tooltiptext">C</span></li>
-          <li class="skill-card"><img src="src/skill_icons/bash.png" alt="Bash" height="150"><span class="tooltiptext">Bash</span></li>
-          <li class="skill-card"><img src="src/skill_icons/html.png" alt="HTML" height="150"><span class="tooltiptext">HTML</span></li>
-          <li class="skill-card"><img src="src/skill_icons/css.png" alt="CSS" height="150"><span class="tooltiptext">CSS</span></li>
-        </ul>
-      </div>
-      <div class="flex-row">
-        <ul class="skill-cards">
-          <li class="skill-card"><img src="src/skill_icons/pytorch.png" alt="PyTorch" height="150"><span class="tooltiptext">PyTorch</span></li>
-          <li class="skill-card"><img src="src/skill_icons/lightning.png" alt="PyTorch Lightning" height="150"><span class="tooltiptext">PyTorch Lightning</span></li>
-          <li class="skill-card"><img src="src/skill_icons/numpy.png" alt="Numpy" height="150"><span class="tooltiptext">Numpy</span></li>
-          <li class="skill-card"><img src="src/skill_icons/pandas.png" alt="Pandas" height="150"><span class="tooltiptext">Pandas</span></li>
-          <li class="skill-card"><img src="src/skill_icons/matplotlib.png" alt="Matplotlib" height="150"><span class="tooltiptext">Matplotlib</span></li>
-          <li class="skill-card"><img src="src/skill_icons/biopython.png" alt="Biopython" height="150"><span class="tooltiptext">Biopython</span></li>
-        </ul>
-      </div>
-      <div class="flex-row">
-        <ul class="skill-cards">
-          <li class="skill-card"><img src="src/skill_icons/tidyverse.png" alt="Tidyverse" height="150"><span class="tooltiptext">Tidyverse</span></li>
-          <li class="skill-card"><img src="src/skill_icons/ggplot2.png" alt="Ggplot2" height="150"><span class="tooltiptext">ggplot2</span></li>
-          <li class="skill-card"><img src="src/skill_icons/dplyr.png" alt="Dplyr" height="150"><span class="tooltiptext">dplyr</span></li>
-          <li class="skill-card"><img src="src/skill_icons/seurat.png" alt="Seurat" height="150"><span class="tooltiptext">Seurat</span></li>
-          <li class="skill-card"><img src="src/skill_icons/quarto.png" alt="Quarto" height="150"><span class="tooltiptext">Quarto</span></li>
-          <li class="skill-card"><img src="src/skill_icons/bioconductor.png" alt="Bioconductor" height="150"><span class="tooltiptext">Bioconductor</span></li>
-        </ul>
-      </div>
+  <div id="skills">
+    <h1 class="main-header">Skills</h1>
+    <div class="skills-container">
+      <div class="skill-tag">Python</div>
+      <div class="skill-tag">R</div>
+      <div class="skill-tag">C</div>
+      <div class="skill-tag">Bash</div>
+      <div class="skill-tag">HTML</div>
+      <div class="skill-tag">CSS</div>
+      <div class="skill-tag">PyTorch</div>
+      <div class="skill-tag">PyTorch Lightning</div>
+      <div class="skill-tag">Numpy</div>
+      <div class="skill-tag">Pandas</div>
+      <div class="skill-tag">Matplotlib</div>
+      <div class="skill-tag">Biopython</div>
+      <div class="skill-tag">Tidyverse</div>
+      <div class="skill-tag">ggplot2</div>
+      <div class="skill-tag">dplyr</div>
+      <div class="skill-tag">Seurat</div>
+      <div class="skill-tag">Quarto</div>
+      <div class="skill-tag">Bioconductor</div>
+      <div class="skill-tag">CUDA</div>
+      <div class="skill-tag">AWS</div>
+      <div class="skill-tag">EC2</div>
+      <div class="skill-tag">S3</div>
+      <div class="skill-tag">IAM</div>
+      <div class="skill-tag">VPC</div>
+      <div class="skill-tag">RDS</div>
+      <div class="skill-tag">SageMaker</div>
+      <div class="skill-tag">Elastic Beanstalk</div>
+      <div class="skill-tag">Slurm</div>
+      <div class="skill-tag">Git</div>
     </div>
+  </div>
 
-    <div class="separator"></div>
-    
-  </body>
+  <div class="separator"></div>
+
+</body>
+
 </html>
